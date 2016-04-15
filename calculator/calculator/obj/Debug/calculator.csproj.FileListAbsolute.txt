@@ -7,6 +7,3 @@ D:\協作平台第一版\calculator\calculator\bin\Debug\calculator.exe
 D:\協作平台第一版\calculator\calculator\bin\Debug\calculator.pdb
 D:\協作平台第一版\calculator\calculator\obj\Debug\calculator.exe
 D:\協作平台第一版\calculator\calculator\obj\Debug\calculator.pdb
-C:\Users\Hower Hsu\Downloads\calculator (1)\calculator\calculator\bin\Debug\calculator.exe.config
-C:\Users\Hower Hsu\Downloads\calculator (1)\calculator\calculator\obj\Debug\calculator.exe
-C:\Users\Hower Hsu\Downloads\calculator (1)\calculator\calculator\obj\Debug\calculator.pdb

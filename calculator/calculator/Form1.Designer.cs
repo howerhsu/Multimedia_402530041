@@ -46,6 +46,10 @@
             this.btAns = new System.Windows.Forms.Button();
             this.btDiv = new System.Windows.Forms.Button();
             this.btMulti = new System.Windows.Forms.Button();
+            this.btPoint = new System.Windows.Forms.Button();
+            this.btSpr = new System.Windows.Forms.Button();
+            this.btBack = new System.Windows.Forms.Button();
+            this.btPow = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbox
@@ -166,10 +170,42 @@
             this.btMulti.UseVisualStyleBackColor = true;
             this.btMulti.Click += new System.EventHandler(this.btMulti_Click);
             // 
+            // btPoint
+            // 
+            resources.ApplyResources(this.btPoint, "btPoint");
+            this.btPoint.Name = "btPoint";
+            this.btPoint.UseVisualStyleBackColor = true;
+            this.btPoint.Click += new System.EventHandler(this.btPoint_Click);
+            // 
+            // btSpr
+            // 
+            resources.ApplyResources(this.btSpr, "btSpr");
+            this.btSpr.Name = "btSpr";
+            this.btSpr.UseVisualStyleBackColor = true;
+            this.btSpr.Click += new System.EventHandler(this.btSpr_Click);
+            // 
+            // btBack
+            // 
+            resources.ApplyResources(this.btBack, "btBack");
+            this.btBack.Name = "btBack";
+            this.btBack.UseVisualStyleBackColor = true;
+            this.btBack.Click += new System.EventHandler(this.btBack_Click);
+            // 
+            // btPow
+            // 
+            resources.ApplyResources(this.btPow, "btPow");
+            this.btPow.Name = "btPow";
+            this.btPow.UseVisualStyleBackColor = true;
+            this.btPow.Click += new System.EventHandler(this.btPow_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btPow);
+            this.Controls.Add(this.btBack);
+            this.Controls.Add(this.btSpr);
+            this.Controls.Add(this.btPoint);
             this.Controls.Add(this.btMulti);
             this.Controls.Add(this.btDiv);
             this.Controls.Add(this.btAns);
@@ -212,6 +248,10 @@
         private System.Windows.Forms.Button btAns;
         private System.Windows.Forms.Button btDiv;
         private System.Windows.Forms.Button btMulti;
+        private System.Windows.Forms.Button btPoint;
+        private System.Windows.Forms.Button btSpr;
+        private System.Windows.Forms.Button btBack;
+        private System.Windows.Forms.Button btPow;
     }
 }
 
